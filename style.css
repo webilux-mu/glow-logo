@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: helvetica;
+    color: bisque;
+    font-size: 10rem;
+    animation: animate 1s ease-in-out infinite alternate;
+}
+
+@keyframes animate {
+    from {
+        text-shadow: 0 0 20px bisque;
+    }
+
+    to {
+        text-shadow: 0 0 30px bisque,
+                     0 0 10px bisque;
+    }
+}
